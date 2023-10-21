@@ -10,5 +10,8 @@ license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 
+[tool.flit.module]
+name = "src"
+
 [project.urls]
 Home = "https://github.com/nogibjj/outliersdemo"
